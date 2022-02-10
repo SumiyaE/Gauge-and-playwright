@@ -8,46 +8,6 @@ To execute this specification, use
 	gauge run specs
 
 This is a context step that runs before every scenario
-* Open todo application
 
 ## Display number of items
-* Add task "first task"
-* Must display "1 item left"
-* Add task "second task"
-* Must display "2 items left"
-
-## Must list only active tasks
-* Add tasks 
-
-   |description|
-   |-----------|
-   |first task |
-   |second task|
-   |third task |
-   |fourth task|
-   |fifth task |
-
-* Complete tasks 
-
-   |description|
-   |-----------|
-   |second task|
-   |fifth task |
-* View "Active" tasks
-* Must have 
-
-   |description|
-   |-----------|
-   |first task |
-   |third task |
-   |fourth task|
-* Must not have 
-
-   |description|
-   |-----------|
-   |second task|
-   |fifth task |
-
-A tear down step for every scenario
-___
-* Clear all tasks
+* Open todo application
